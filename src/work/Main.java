@@ -56,6 +56,9 @@ public class Main {
         System.out.println(sumInter1.sum(5, 6));
         System.out.println(sumInter1.sum(5, 9));
 
+        LengthInter lengthInter = str -> str.length();
+        System.out.println("length of this string : " + lengthInter.getLngth("Raushan ranjan"));
+
 
     }
 }
